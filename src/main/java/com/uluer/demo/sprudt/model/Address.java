@@ -10,7 +10,7 @@ import org.springframework.data.cassandra.core.mapping.UserDefinedType;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode
-@UserDefinedType("address_udt")
+@UserDefinedType //must be same
 public class Address {
 
     private String street;
